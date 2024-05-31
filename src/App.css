@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body,.container {
+  font-family: 'Sigmar One', cursive !important;
+  color: black !important;
+  letter-spacing: 2px;
+}
+.main-logo{
+  font-size: 35px !important;
+}
