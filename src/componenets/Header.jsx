@@ -1,35 +1,29 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 function Header() {
   return (
     <div className="container">
-      <div className="row d-flex justify-content-between align-items-center py-3 mb-4">
-        <div className="col-md-3  d-flex align-items-center">
+      <div className="row align-items-center py-2 mb-4 flex-column flex-md-row">
+        <div className="col-12 col-md-1 d-flex justify-content-center justify-content-md-start" >
           <h3 className="main-logo">Abubakr</h3>
         </div>
-        <div className="col-md-9">
-          <header className="">
-            <ul className="nav nav-pills justify-content-end">
+        <div className="col-12 col-md-11">
+          <header className="d-flex justify-content-center justify-content-md-end mt-2 mt-md-0" >
+            <ul className="nav nav-pills">
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  Features
+                  Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  Pricing
+                  Experience
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  About
+                  Resume
                 </a>
               </li>
             </ul>
