@@ -7,4 +7,18 @@ body,.container {
 }
 .main-logo{
   font-size: 35px !important;
+  transition: color 0.3s ease;
+}
+.main-logo:hover {
+  color: #0d6efd; /* Blue color on hover */
+}
+.head-main{
+  font-weight: 500 !important;
+}
+.hover-animate {
+  transition: color 0.3s ease;
+}
+
+.hover-animate:hover {
+  color: #0d6efd; /* Blue color on hover */
 }
