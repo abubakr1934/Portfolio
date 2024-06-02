@@ -13,12 +13,17 @@ function Header() {
             <ul className="nav nav-pills">
               <li className="nav-item">
                 <a href="#" className="nav-link">
+                  Profiles
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  Experience
+                  Skills
                 </a>
               </li>
               <li className="nav-item">
