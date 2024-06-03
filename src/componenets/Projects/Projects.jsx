@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Projects.css";
 import "../../App.css";
 import mgtd from '../../assets/photosProjects/machine.png'; 
-import myntraCloneImg from '../../assets/photosProjects/m yntra.jpeg';
+import myntraCloneImg from '../../assets/photosProjects/myntra.jpeg';
 import fumblrImg from '../../assets/photosProjects/fumblr.png';
 import objectTrackingImg from '../../assets/photosProjects/objectTraacking.png';
 import salesCallerImg from '../../assets/photosProjects/salescaller.png';
