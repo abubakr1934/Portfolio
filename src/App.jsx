@@ -7,6 +7,8 @@ import CodingProfiles from './componenets/CodingProfiles';
 import Loading from './componenets/Loading';
 import { useState,useEffect } from 'react';
 import Skill from './componenets/Skills/Skill';
+import Projects from './componenets/Projects/Projects';
+  
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,11 +28,12 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Mainpage />
       <CodingProfiles />
       <Skill></Skill> 
-      <Footer />
+      <Footer /> */}
+      <Projects></Projects>
       
     </>
   );
