@@ -11,7 +11,7 @@ function Mainpage() {
             Hey There! I'm Abubakr
           </h1>
           <p className="lead d-flex justify-content-start">
-            I am a Software Engineer currently pursuing B.Tech in Computer Science Engineering. Don't forget to checkout my DSA coding profiles and recent projects.
+            I am a Software Engineer currently pursuing B.Tech in Computer Science Engineering. Don't forget to checkout my DSA coding profiles and recent projects :)
           </p>
         </div>
         <div className="col-md-4 d-flex justify-content-center">
