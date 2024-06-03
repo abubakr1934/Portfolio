@@ -27,7 +27,7 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="https://drive.google.com/file/d/1l0cArA9Trd-EmwpHAEHpM_tI8SjUWyR-/view" className="nav-link">
                   Resume
                 </a>
               </li>

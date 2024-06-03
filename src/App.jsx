@@ -4,17 +4,33 @@ import Header from './componenets/Header';
 import Mainpage from './componenets/Mainpage';
 import Footer from './componenets/Footer';
 import CodingProfiles from './componenets/CodingProfiles';
+import Loading from './componenets/Loading';
+import { useState,useEffect } from 'react';
 
 function App() {
-  return(
-    <>
-    <Header></Header>
-    <Mainpage></Mainpage>
-    <CodingProfiles></CodingProfiles>
-    <Footer></Footer>
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
     
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); 
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
+
+  return (
+    <>
+      <Header />
+      <Mainpage />
+      <CodingProfiles />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App
