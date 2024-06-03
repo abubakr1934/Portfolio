@@ -29,22 +29,20 @@ function Projects() {
               <div className="card-body">
                 <p className="card-text">Machine Generated Text Detection</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <small className="text-body-secondary">ML,python,BI-LSTM,Deep learning,State of Art models,BERT,DEBERTA</small>
+                  <small className="text-body-secondary">ML, python, BI-LSTM, Deep learning, State of Art models, BERT, DEBERTA</small>
                 </div>
               </div>
             </div>
           </a>
         </div>
-        <div className="col ">
+        <div className="col">
           <a href="https://myntra-ecommerce-clone.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="card shadow-sm">
               <img src={myntraCloneImg} className="bd-placeholder-img card-img-top" alt="Myntra Clone" height="225" />
               <div className="card-body">
                 <p className="card-text">Myntra Clone</p>
                 <div className="d-flex justify-content-between align-items-end">
-                  <small className="text-body-secondary">
-                    React,NodeJS,Bootstrap
-                  </small>
+                  <small className="text-body-secondary">React, NodeJS, Bootstrap</small>
                 </div>
               </div>
             </div>
@@ -57,7 +55,7 @@ function Projects() {
               <div className="card-body">
                 <p className="card-text">Fumblr-Social Media App</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <small className="text-body-secondary">React,bootstrap</small>
+                  <small className="text-body-secondary">React, Bootstrap</small>
                 </div>
               </div>
             </div>
@@ -70,7 +68,7 @@ function Projects() {
               <div className="card-body">
                 <p className="card-text">Object Tracking with open-CV</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <small className="text-body-secondary">open-cv,python</small>
+                  <small className="text-body-secondary">open-cv, python</small>
                 </div>
               </div>
             </div>
@@ -83,24 +81,22 @@ function Projects() {
               <div className="card-body">
                 <p className="card-text">SalesCaller.io</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <small className="text-body-secondary">React,bootstrap,react-strap</small>
+                  <small className="text-body-secondary">React, bootstrap, react-strap</small>
                 </div>
               </div>
             </div>
           </a>
         </div>
         <div className="col">
-          
-            <div className="card shadow-sm" onClick={change}>
-              <img src={render ? spider : portfolioImg} className="bd-placeholder-img card-img-top" alt="Portfolio" height="225" />
-              <div className="card-body">
-                <p className="card-text">Portfolio</p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <small className="text-body-secondary">React,Bootstrap</small>
-                </div>
+          <div className="card shadow-sm" onClick={change}>
+            <img src={render ? spider : portfolioImg} className="bd-placeholder-img card-img-top" alt="Portfolio" height="225" />
+            <div className="card-body">
+              <p className="card-text">Portfolio</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <small className="text-body-secondary">React, Bootstrap</small>
               </div>
             </div>
-          
+          </div>
         </div>
       </div>
     </div>
