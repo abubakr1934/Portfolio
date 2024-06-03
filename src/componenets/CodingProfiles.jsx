@@ -5,7 +5,7 @@ import Leetcode from '../assets/Leetcode.png';
 function CodingProfiles() {
   return (
     <div className="container px-4 py-5" id="custom-cards">
-      <h2 className="pb-2  clr">Coding Profiles</h2>
+      <h2 className="pb-2  clr">Profiles</h2>
       <h5 >My graphic designer went on leave, so my cards will have no background images. It's minimalism at its finest, or as I call it,<span style={{color:"#0d6efd"}}> "unintended genius."</span> But hey, my coding profiles are still top-notch🔥</h5>
 
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">

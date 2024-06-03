@@ -7,7 +7,7 @@ function Mainpage() {
     <div className="container col-xxl-8 px-4 py-5">
       <div className="row flex-lg-row align-items-center g-5 py-5">
         <div className="col-md-8">
-          <h1 className="display-3 fw-bold lh-2 mb-3 d-flex justify-content-start">
+          <h1 className="display-3 fw-bold lh-2 mb-3 d-flex justify-content-start" style={{color:"#3498db"}}>
             Hey There! I'm Abubakr
           </h1>
           <p className="lead d-flex justify-content-start">

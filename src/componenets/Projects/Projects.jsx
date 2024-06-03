@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Projects.css";
 import "../../App.css";
 import mgtd from '../../assets/photosProjects/machine.png'; 
-// import myntraCloneImg from '../../assets/photosProjects/myntra_clone.png';
+import myntraCloneImg from '../../assets/photosProjects/m yntra.jpeg';
 import fumblrImg from '../../assets/photosProjects/fumblr.png';
 import objectTrackingImg from '../../assets/photosProjects/objectTraacking.png';
 import salesCallerImg from '../../assets/photosProjects/salescaller.png';
@@ -35,10 +35,10 @@ function Projects() {
             </div>
           </a>
         </div>
-        <div className="col">
+        <div className="col ">
           <a href="https://myntra-ecommerce-clone.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="card shadow-sm">
-              <img src="" className="bd-placeholder-img card-img-top" alt="Myntra Clone" height="225" />
+              <img src={myntraCloneImg} className="bd-placeholder-img card-img-top" alt="Myntra Clone" height="225" />
               <div className="card-body">
                 <p className="card-text">Myntra Clone</p>
                 <div className="d-flex justify-content-between align-items-end">
@@ -92,7 +92,7 @@ function Projects() {
         <div className="col">
           
             <div className="card shadow-sm" onClick={change}>
-              <img src={render ? portfolioImg : spider} className="bd-placeholder-img card-img-top" alt="Portfolio" height="225" />
+              <img src={render ? spider : portfolioImg} className="bd-placeholder-img card-img-top" alt="Portfolio" height="225" />
               <div className="card-body">
                 <p className="card-text">Portfolio</p>
                 <div className="d-flex justify-content-between align-items-center">
