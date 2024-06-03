@@ -1,0 +1,39 @@
+
+  
+  .skill-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background-color: transparent !important; /* Ensure the image background is transparent */
+  }
+  
+  body {
+    background-color: #f3ebe9; /* Set to the background color you desire */
+  }
+  /* Skill.css */
+#icon-grid {
+    display: flex;
+    justify-content: center; /* Center the skills section on the x-axis */
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-container {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  }
+  
+  .skill-container:hover {
+    transform: scale(1.2); /* Zoom in effect on hover */
+  }
+  
+  .skill-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+ 

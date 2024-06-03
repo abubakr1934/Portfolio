@@ -6,6 +6,7 @@ import Footer from './componenets/Footer';
 import CodingProfiles from './componenets/CodingProfiles';
 import Loading from './componenets/Loading';
 import { useState,useEffect } from 'react';
+import Skill from './componenets/Skills/Skill';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,7 +29,9 @@ function App() {
       <Header />
       <Mainpage />
       <CodingProfiles />
+      <Skill></Skill> 
       <Footer />
+      
     </>
   );
 }

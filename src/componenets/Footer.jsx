@@ -44,8 +44,8 @@ function Footer() {
       valid = false;
     }
 
-    if (message.trim().length === 0) {
-      errors.message = "Message cannot be empty";
+    if (message.trim().length <= 5) {
+      errors.message = "Can you describe a little more?";
       valid = false;
     }
 
