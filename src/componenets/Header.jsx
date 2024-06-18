@@ -29,7 +29,7 @@ function Header({ scrollToSection, refs }) {
                 </button>
               </li>
               <li className="nav-item">
-                <a href="https://drive.google.com/file/d/1l0cArA9Trd-EmwpHAEHpM_tI8SjUWyR-/view" className="nav-link">
+                <a href="https://drive.google.com/file/d/1_0VaLaGCXef5l-ClML4h7DZXYhCFMQ1e/view?usp=sharing" className="nav-link">
                   Resume
                 </a>
               </li>
